@@ -1,0 +1,91 @@
+/*banner  */
+
+
+body,html{
+    height:100%;
+    color: white;
+    background: rgb(39, 39, 39);
+    background: radial-gradient(circle, rgba(39, 39, 39,1) 22%, rgba(85, 85, 85) 100%);
+}
+
+/* ******BANNER*******/
+.banner{
+    background-image:url(images/banner-bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.banner-baslik{
+    border:1px solid wheat;
+    width:215px;
+    height:40px;
+    background: rgb(73,16,111);
+    background: radial-gradient(circle, rgba(73, 16, 111, 0.684) 22%, rgba(11, 78, 88, 0.782) 100%);
+
+}
+
+.banner .row{
+    padding-top: 100px;
+}
+
+.banner h1{
+    font-size:50px;
+}
+.banner img{
+    width: 80%;
+    
+
+}
+/* ****** END BANNER*******/
+
+/* **********CONTAİNER*********** */
+.arkaplan1,.arkaplan2{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.arkaplan1{
+    background-image:url(images/arkaplan1.jpg);   
+}
+.arkaplan1 .figure{
+    border:10px solid antiquewhite;
+    height: 340px;
+
+}
+.figure img{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 320px;
+}
+.arkaplan2{
+    background-image:url(images/arkaplan2.jpg);
+}
+
+/* ********** END CONTAİNER*********** */
+
+
+/*genel buton ayarları*/
+
+.buton{
+    color: white;
+    border:1px solid white;
+    border-radius:5px;
+    padding: 10px;
+    background: rgb(73,16,111);
+    background: radial-gradient(circle, rgba(73, 16, 111, 0.684) 22%, rgba(11, 78, 88, 0.782) 100%);
+    text-decoration:none;
+}
+
+.buton:hover{
+    background: rgb(11, 78, 88);
+    background: radial-gradient(circle, rgba(11, 78, 88, 0.684) 22%, rgba(73, 16, 111, 0.782) 100%);
+}
+
+
+
+
+
+
